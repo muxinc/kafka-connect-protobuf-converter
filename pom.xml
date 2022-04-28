@@ -19,7 +19,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <protobuf.version>3.20.0</protobuf.version>
+        <protobuf.version>3.11.4</protobuf.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -72,6 +72,11 @@
             <groupId>com.google.api.grpc</groupId>
             <artifactId>googleapis-common-protos</artifactId>
             <version>0.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-all</artifactId>
+            <version>1.29.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>
